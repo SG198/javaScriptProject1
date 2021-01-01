@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Convertor</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="title">**Temperature Convertor**</h2>
+        <label for="kelvin">Kelvin(K)</label>
+        <input type="number" class="temperature" id="kelvin" 
+        placeholder="0" oninput="KelvinConvertor(parseFloat(this.value))" step="0.1" value="0">
+    
+
+    <label for="celsius">Celsius(C)</label>
+        <input type="number" class="temperature" id="celsius" 
+        placeholder="-273.15" oninput="CelsiusConvertor(parseFloat(this.value))" step="0.1" value="-273.1">
+    
+
+    <label for="farenhite">Farenhite(F)</label>
+        <input type="number" class="temperature" id="farenhite" 
+        placeholder="-373.15" oninput="FarenhiteConvertor(parseFloat(this.value))" step="0.1" value="-459.6">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: rgb(166,204,219);
+    transition: 0.5s;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    width: 400px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 4px 8px 16px rgba(0,0,0,0.1);
+}
+
+.temperature{
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+}
+
+label{margin: 20px 0 6px 12px;}
+
+.title{
+    text-align: center;
+}
